@@ -1,0 +1,124 @@
+    1  git config --global user.name "Gracie"
+    2  git config -- global user.email gstirk@byu.edu
+    3  git config --global user.email gstirk@byu.edu
+    4  git config --global init.defaultBranch main
+    7  git --version
+    8  git status
+   10  git config --list
+   37  cd git-practice-gstirk27/
+   47  cd git-practice-gstirk27/
+   52  git status
+   54  git add file.txt
+   55  git add file1.txt
+   56  git status
+   57  git add .
+   58  git status
+   59  git log
+   60  git log --oneline
+   61  git commit -m 'Added files'
+   62  git status
+   63  git log --oneline
+   64  git log
+   65  git config --global user.name "[Gracie Stirk]"
+   67  git config --global user.name "Gracie Stirk"
+   69  git config --global user.name "Gracie Stirk"
+   70  cd git-practice-gstirk27/
+   71  touch .gitignore
+   72  git add .
+   73  git status
+   74  git commit -m "added .gitignore file"
+   75  git log
+   76  git statu
+   77  git status
+   78  git remote add origin https://github.com/gstirk27/first
+   80  git remote add origin https://github.com/gstirk27/first.git
+   81  git remote -v
+   82  git push -u origin main
+   88  git push -u origin main
+  102  cd git-practice-gstirk27/
+  109  cd git-practice-gstirk27/
+  110  git push -u origin main
+  111  git config core.editor notepad
+  112  git status
+  113  git commit file1.txt
+  114  git status
+  117  git add file1.txt
+  118  git status
+  119  git commit -m "updated file1"
+  120  git status
+  121  git add file2.txt
+  122  git commit -m "updated file2.txt"
+  123  git log
+  126  git add Readme.md
+  127  git commit -m "added a Readme file"
+  128  git add .gitignore
+  129  git commit -m "updated gitignore"
+  131  git status
+  132  git branch features
+  133  git checkout
+  134  git log
+  135  git branch
+  136  git checkout features
+  137  git log
+  140  git add new_features.txt
+  141  git commit -m "add empty file"
+  142  git add new_features.txt
+  143  git commit -m "added text to the new features"
+  144  git checkout main
+  145  git status
+  146  git add file1.txt
+  147  git commit -m "added some text to file1"
+  148  git merge features
+  149  git log
+  150  git add new_feature.txt
+  151  git add new_features.txt
+  152  git commit -m "changed text in the new_feature file"
+  153  git checkout features
+  156  git add new_features.txt
+  157  git commit -m "gave new text to new_features"
+  158  git checkout
+  159  git checkout main
+  160  git merge features
+  162  git commit -m "i think i fixed the merge?"
+  163  git merge features
+  167  git commit -m "i think i fixed the merge?"
+  168  git add new_features.txt 
+  169  git commit -m "i think i fixed the merge?"
+  170  git log
+  171  git branches
+  172  git branch
+  173  git branch -d features
+  174  git push -u origin main
+  179  git init
+  180  git remote add origin git@github.com:gstirk27/My-Blog.git
+  181  git push origin main
+  183  git push -u origin main
+  185  git@github.com:gstirk27/git-practice-tiredlizard.git
+  189  git branch feature-gstirk27
+  190  git branch feature-gstirk27
+  191  git branch
+  192  git branch feature-gstirk27
+  194  cd git-practice-tiredlizard-main
+  195  git branch feature-gstirk27
+  196  git init
+  197  git branch feature-gstirk27
+  199  mkdir gitprojects
+  200  cd gitprojects/
+  201  git@github.com:gstirk27/git-practice-tiredlizard.git
+  202  git clone git@github.com:gstirk27/git-practice-tiredlizard.git
+  204  git clone git@github.com:gstirk27/git-practice-tiredlizard.git
+  206  cd git-practice-tiredlizard/
+  208  git branch feature-gstirk27
+  209  git checkout feature-gstirk27 
+  212  git add newtext.txt
+  213  git commit -m "added some new text"
+  214  git push origin feature-gstirk
+  215  git push origin feature-gstirk27
+  218  cd git-practice-gstirk27/
+  219  git push
+  220  git push
+  221  git pull
+  222  git push
+  223  git status
+  225  git log --oneline > gitlog.txt
+  226  history | grep git > history.txt

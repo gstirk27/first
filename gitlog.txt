@@ -1,0 +1,15 @@
+fe3cb8f Rename file2.txt to file_2.txt
+8c49fa7 Rename file1.txt to file_1.txt
+62623e5 i think i fixed the merge?
+68f2929 gave new text to new_features
+63a1308 changed text in the new_feature file
+9173e0d Merge branch 'features' merging the features branch to the main branch
+33fd209 added some text to file1
+6a6f5e2 added text to the new features
+3cdebfb add empty file
+f57d72d updated gitignore
+c8b52fe added a Readme file
+9279c95 updated file2.txt
+c74b719 updated file1
+13f4082 added .gitignore file
+61af750 Added files
